@@ -1,0 +1,26 @@
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <ul class="nav">
+                <li> <a href="#"> Home </a> </li>
+                <li> <a href="#"> Link1 </a> </li>
+                <li> <a href="#"> Link2 </a> </li>
+                <li> <a href="#"> Link3 </a> </li>
+            </ul>
+            <ul class="nav pull-right">  
+                <li class="dropdown">  
+                    {% if g.user %}
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">  
+                            <i class="icon-user"></i>
+                                {{ g.user.nickname() }}
+                               <b class="caret"></b>  
+                        </a>  
+                        <ul class="dropdown-menu">  
+                            <li><a href="{{ logout }}"><i class="icon-signout"></i> Logout </a></li>
+                        </ul>  
+                    {% endif %}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

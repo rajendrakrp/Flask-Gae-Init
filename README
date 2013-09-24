@@ -1,0 +1,13 @@
+Download and Install App Engine SDK:
+
+https://developers.google.com/appengine/downloads#Google_App_Engine_SDK_for_Python
+
+Copy following Flask related libraries in the App directory:
+
+    1. Werkzeug -- http://werkzeug.pocoo.org/ 
+    2. Flask -- http://flask.pocoo.org/
+    3. WTforms -- http://wtforms.simplecodes.com/docs/1.0.4/
+    4. Flask-WTF -- https://flask-wtf.readthedocs.org/en/latest/
+    5. jinja2 -- http://jinja.pocoo.org/docs/
+       [Install through pip, it installs all the dependencies(markupsafe)
+

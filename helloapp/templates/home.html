@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %} Home {% endblock %}
+
+{% block content %}
+
+    <div class="container">
+        <div class="well">
+            <form action="" method="POST">
+                {{ csrf_token }}
+                {{ form.name }}
+                <input type="submit" class="btn">
+            </form>
+            <br><br>
+            {% if name %}
+                Hi {{ name }}!!
+            {% endif %}
+        </div>
+    </div>
+
+{% endblock %}

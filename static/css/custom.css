@@ -1,0 +1,119 @@
+@media (min-width: 768px) { 
+    .sb-fixed{
+    position: fixed;
+    } 
+}
+body {
+    padding-bottom: 40px;
+    padding-top: 60px;
+    background-color: #E2E2E2;
+    line-height: 18px;
+}
+.well {
+    border: 2px solid #e3e3e3;
+    min-height: 17px;
+    padding: 11px;
+    margin-bottom: -9px;
+    border-radius: 14px;
+}
+.pager {
+    margin: 1px;
+}
+select,
+textarea,
+input[type="text"],
+.uneditable-input {
+    margin-bottom: 2px;
+}
+hr
+{
+	background-color: #eee;
+	border: 2 none;
+	color: #eee;
+	height: 3px;
+}
+#select_project {
+    width: auto;
+}
+#from, #to{
+    width:  207px;
+}
+.form-horizontal input {
+    display: inline-block;
+    margin-bottom: 0;
+    vertical-align: middle;
+}
+.form-horizontal textarea {
+    width: 208px;
+}
+label {
+    display: inline;
+}
+.columns {
+    border: 2px solid #CCC;
+    width: 191px;
+    height: 100px;
+    margin-left: 1px;
+    overflow: auto;
+    background-color: white;
+    padding-left: 24px;
+    padding-right: 1px;
+    padding-top: 2px;
+    white-space: nowrap;
+}
+
+.disp_emp_sel{
+    border: 1px solid #CCC;
+    width: 192px;
+    height: 100px;
+    margin-left: 1px;
+    overflow: auto;
+    padding-left: 24px;
+    padding-right: 1px;
+    padding-top: 2px;
+    white-space: nowrap;
+}
+
+input[type=radio] , input[type=checkbox] {
+    margin: 0px 0 0;
+    line-height: normal;
+}
+
+#timepicker3 {
+    width: 207px;
+}
+
+@media (min-width: 1200px) {
+    .bs-docs-sidenav > li > a {
+        width: 230px 9;
+        background-color: #CACACA;
+    }
+}
+
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+    background-color: #A8CAFF;
+    border: 1px solid white;
+    font-size: 10pt;
+    padding: 12px;
+    line-height: 9px;
+}
+
+#google-login {
+    padding: 11px 37px;
+    font-size: 18.5px;
+}
+
+.controls.readonly
+{
+  padding-top: 5px;
+}
+
+#forgotpwd
+{
+    font-size: 12px;
+}
+
+#rememberme
+{
+    margin: -3px 0 0;
+}
