@@ -11,3 +11,7 @@ Copy following Flask related libraries in the App directory:
     5. jinja2 -- http://jinja.pocoo.org/docs/
        [Install through pip, it installs all the dependencies(markupsafe)
 
+BTW, this is all done for you. Just use this repo and replace 'helloapp' by your flask app. 
+
+Enjoy!
+
